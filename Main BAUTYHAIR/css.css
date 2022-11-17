@@ -1,0 +1,71 @@
+html{
+    background-color: rgb(204, 161, 203);
+}
+
+form {
+   text-align: center;
+   
+}
+
+
+#fondo {
+    background-color: rgb(213, 2, 2);
+    opacity: 0.8;
+    background-image: url('Ima.jpg') ;
+    background-size: cover;
+    height: 400px;
+    background-repeat: repeat-y; 
+    background-position: center;
+}   
+
+.margen {
+    
+    margin: 40px; 
+    padding: 40px 80px 30px  ;
+    border: solid black 1px;
+ /*    height: 800;
+    width: 750; */
+    background-size: cover;
+   /*  overflow: scroll; ---->  */ /* <-----Aqui agregamos scroll para nuestro margen,
+     es decir ese overflow controla el texto y si es visible o no con sus 
+                     diferentes atributos */
+    outline: 5px;   
+    text-align: center;
+    text-shadow: 3px 5px 10px mediumvioletred;        
+   /* #CODIGO:  text-decoration: wavy;  ------> */     /* <------- O atributo anterior nos ayudará para poner ya sean lineas a traves de nuestos textos principalmente */
+    font-family:'Belleza' , sans-serif   ;
+    /* A continuación voy a dejar una lista de todas las opciones que tenemos para modificar los colores de nuestros links*/
+    
+}
+
+/* El orden es importante cuando hablamos de colores de link siempre deve ser de esta forma acontinuación*/
+
+a {
+    text-align: center;
+}
+
+a:link {
+    color: blueviolet; 
+}
+a:visited {
+    color: rgb(130, 5, 65);
+}
+a:hover {
+    color: rgb(255, 2, 128);
+}
+
+a:active {
+    color: red;
+}
+
+ul {
+    list-style-type:none;  
+    text-align: center;
+  /* padding: 80px; */
+}
+
+li{
+ 
+    display:inline;
+}
+
